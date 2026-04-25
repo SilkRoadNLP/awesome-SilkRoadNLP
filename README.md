@@ -23,7 +23,7 @@ Despite their cultural and linguistic importance, most Iranian languages remain 
 **GitHub:** [github.com/silkroadnlp](https://github.com/silkroadnlp)
 
 <p align="center">
-  <img src="assets/language-map.svg" alt="Iranian Language Family — Geographic Distribution" width="800">
+  <img src="assets/language-map.png" alt="Iranian Language Family — Geographic Distribution" width="800">
 </p>
 
 ### Key Focus Areas
