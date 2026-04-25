@@ -1,6 +1,13 @@
-# Awesome SilkRoadNLP [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+<p align="center">
+  <img src="assets/logo.png" alt="SilkRoadNLP Logo" width="200">
+</p>
 
-A curated collection of NLP and LLM resources for the **Iranian language family** — maintained by the [SilkRoadNLP](https://www.silkroadnlp.org/) community.
+<h1 align="center">Awesome SilkRoadNLP <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a></h1>
+
+<p align="center">
+  A curated collection of NLP and LLM resources for the <strong>Iranian language family</strong><br>
+  Maintained by the <a href="https://www.silkroadnlp.org/">SilkRoadNLP</a> community
+</p>
 
 ---
 
