@@ -65,11 +65,14 @@ Persian has received the most attention among Iranian languages in computational
 **[View all Persian resources →](languages/persian.md)**
 
 **Highlights:**
+- **Khayyam Challenge (PersianMMLU)** — 20,192 exam questions across 38 tasks for evaluating LLMs in Persian
+- **MEENA (PersianMMMU)** — Multimodal benchmark with ~7,500 Persian questions for vision-language models
 - **ParsBERT** — Monolingual BERT for Persian, SOTA on sentiment analysis, NER, and text classification
+- **HarfoSokhan** — 6M parallel sentence pairs for Persian colloquial-formal style transfer
+- **Hengam** — Adversarially trained transformer for Persian temporal tagging (F1: 95.42)
 - **Phate** — 7,000+ annotated Persian tweets for multi-label hate speech detection
-- **DivanBench** — Cultural and conceptual knowledge benchmark for Persian LLMs
-- **PersianPunc** — 17M-sample dataset for punctuation restoration
-- **PMWP** — 15,000 Persian math word problems
+- **ParsiPy** — First NLP toolkit for historical Persian (Middle Persian / Parsig)
+- **PahGen** — Grammar-guided zero-shot translation for ancient Pahlavi text generation
 
 ---
 
