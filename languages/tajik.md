@@ -8,9 +8,20 @@ Tajik is the official language of Tajikistan, closely related to Persian and Dar
 
 ## Table of Contents
 
+- [Transliteration & Script Bridging](#transliteration--script-bridging)
 - [Lexical Resources](#lexical-resources)
 - [Language Understanding & Evaluation](#language-understanding--evaluation)
 - [Multilingual Coverage](#multilingual-coverage)
+
+---
+
+## Transliteration & Script Bridging
+
+| Paper | Authors | Year | Links |
+|-------|---------|------|-------|
+| [Transformers for Bridging Persian Dialects: Transliteration Model for Tajiki and Iranian Scripts](https://aclanthology.org/2024.lrec-main.1459/) | SadraeiJavaheri, Asgari, Rabiee | 2024 | [![GitHub](https://img.shields.io/badge/GitHub-Code_&_Data-black?logo=github)](https://github.com/language-ml/Tajiki-Shahname) |
+
+> Develops transliteration models to bridge Tajiki Persian (Cyrillic) and Iranian Persian (Arabic script) using a parallel corpus from the Shahnameh. Transformer and GRU-based models outperform GPT-3.5. Releases a digitized collection of Persian poetry spanning 1000 years in Tajiki script.
 
 ---
 

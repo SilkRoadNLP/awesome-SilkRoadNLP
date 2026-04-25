@@ -19,6 +19,8 @@ Persian (Farsi) is the official language of Iran with over 70 million native spe
 - [Datasets & Corpora](#datasets--corpora)
 - [Punctuation & Text Processing](#punctuation--text-processing)
 - [Figurative Language & Pragmatics](#figurative-language--pragmatics)
+- [Historical & Classical Persian](#historical--classical-persian)
+- [Temporal & Sequence Tagging](#temporal--sequence-tagging)
 
 ---
 
@@ -41,8 +43,14 @@ Persian (Farsi) is the official language of Iran with over 70 million native spe
 | Paper | Authors | Year | Links |
 |-------|---------|------|-------|
 | [PMWP: A Benchmark for Math Word Problem Solving in Persian](https://aclanthology.org/2026.silkroadnlp-1.8/) | Abdolmaleki, Shamsfard, Hoste, Lefever | 2026 | [![GitHub](https://img.shields.io/badge/GitHub-Dataset-black?logo=github)](https://github.com/marzieh-abdolmaleki/PMWP) |
+| [Khayyam Challenge (PersianMMLU): Is Your LLM Truly Wise to The Persian Language?](https://arxiv.org/abs/2404.06644) | Ghahroodi, Nouri, Sanian, Sahebi, Dastgheib, Asgari, Soleymani Baghshah, Rohban | 2024 | [![GitHub](https://img.shields.io/badge/GitHub-Code-black?logo=github)](https://github.com/raia-center/khayyam-challenge) [![HuggingFace](https://img.shields.io/badge/🤗-Dataset-yellow)](https://huggingface.co/datasets/raia-center/khayyam-challenge) |
+| [MEENA (PersianMMMU): Multimodal-Multilingual Educational Exams for N-level Assessment](https://aclanthology.org/2026.findings-eacl.340/) | Ghahroodi, Hemmat, Nouri, Hosseini, Dastgheib, Sanian, Sahebi, Zohrabi, Rohban, Asgari, Soleymani Baghshah | 2026 | |
 
 > **PMWP** is the first dataset of 15,000 elementary-level Persian math word problems for training and evaluating mathematical reasoning in LLMs.
+
+> **Khayyam Challenge (PersianMMLU)** comprises 20,192 four-choice questions from 38 diverse tasks extracted from Persian examinations, covering subjects from literary comprehension to mathematics, sciences, and logic. Published at COLM 2024.
+
+> **MEENA (PersianMMMU)** is a multimodal benchmark of ~7,500 Persian and ~3,000 English questions spanning mathematics, physics, reasoning, and Persian cultural topics for evaluating vision-language models.
 
 ---
 
@@ -115,8 +123,11 @@ Persian (Farsi) is the official language of Iran with over 70 million native spe
 | Paper | Authors | Year | Links |
 |-------|---------|------|-------|
 | [ParsCORE: The Persian Corpus of Online Registers](https://aclanthology.org/2026.silkroadnlp-1.7/) | Razzaghi, Henriksson, Laippala | 2026 | [![GitHub](https://img.shields.io/badge/GitHub-Dataset-black?logo=github)](https://github.com/TurkuNLP/ParsCORE) |
+| [HarfoSokhan: A Comprehensive Parallel Dataset for Transitions between Persian Colloquial and Formal Variations](https://aclanthology.org/2026.eacl-long.346/) | Jahad Sarvestani, Ramezanian, Saadat, Taghizadeh Serajeh, Razavi Taheri, Kasaei, Fazli, Asgari | 2026 | |
 
 > **ParsCORE v0.1** is a corpus of 2,000 human-annotated Persian web documents spanning diverse online registers, developed within the Universal Register framework.
+
+> **HarfoSokhan** is a large-scale parallel dataset of 6 million sentence pairs for converting between Persian colloquial and formal language variations. A GPT2 model trained on this dataset outperforms GPT-3.5-turbo and rule-based systems at style transfer.
 
 ---
 
@@ -138,3 +149,27 @@ Persian (Farsi) is the official language of Iran with over 70 million native spe
 | [A Computational Approach to Language Contact — A Case Study of Persian](https://aclanthology.org/2026.silkroadnlp-1.5/) | Basirat, Namazifard, Baradaran Hemmati | 2026 | |
 
 > The language contact study proposes a computational framework for detecting and quantifying lexical borrowing and phonological adaptation in Persian from Arabic, French, and English.
+
+---
+
+## Historical & Classical Persian
+
+| Paper | Authors | Year | Links |
+|-------|---------|------|-------|
+| [Linguistic Resources and Topic Models for the Analysis of Persian Poems](https://aclanthology.org/W13-1404/) | Asgari, Chappelier | 2013 | |
+| [ParsiPy: NLP Toolkit for Historical Persian Texts in Python](https://aclanthology.org/2025.alp-1.17/) | Farsi et al. | 2025 | [![GitHub](https://img.shields.io/badge/GitHub-Code-black?logo=github)](https://github.com/openscilab/parsipy) |
+| [PahGen: Generating Ancient Pahlavi Text via Grammar-guided Zero-shot Translation](https://aclanthology.org/2025.loresmt-1.16/) | Farsi, Fazel, Goshtasb, Hajipour, Sabouri, Asgari, Sameti | 2025 | |
+
+> **ParsiPy** is the first NLP toolkit in Python for processing Pārsīg (Middle Persian), with modules for tokenization, lemmatization, POS tagging, phoneme-to-transliteration conversion, and word embeddings.
+
+> **PahGen** addresses the endangered Pahlavi (Middle Persian) language by combining grammar-guided term extraction with zero-shot translation using LLMs, generating a validated dataset of 360 parallel English-Pahlavi texts.
+
+---
+
+## Temporal & Sequence Tagging
+
+| Paper | Authors | Year | Links |
+|-------|---------|------|-------|
+| [Hengam: An Adversarially Trained Transformer for Persian Temporal Tagging](https://aclanthology.org/2022.aacl-main.74/) | Mirzababaei, Kargaran, Schütze, Asgari | 2022 | [![GitHub](https://img.shields.io/badge/GitHub-Code_&_Data-black?logo=github)](https://github.com/kargaranamir/Hengam) |
+
+> **Hengam** includes HengamTagger (an extensible rule-based temporal expression extractor) and HengamGold (the first high-quality gold standard for Persian temporal tagging), achieving type F1 of 95.42 and partial F1 of 91.60.
