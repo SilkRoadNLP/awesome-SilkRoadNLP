@@ -1,0 +1,162 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 520" font-family="'Segoe UI', Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#161b22;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="silkroad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#c9924a;stop-opacity:0.1"/>
+      <stop offset="50%" style="stop-color:#c9924a;stop-opacity:0.35"/>
+      <stop offset="100%" style="stop-color:#c9924a;stop-opacity:0.1"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="1" stdDeviation="2" flood-color="#000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1000" height="520" fill="url(#bg)" rx="12"/>
+
+  <!-- Title -->
+  <text x="500" y="38" text-anchor="middle" fill="#e6edf3" font-size="18" font-weight="600" letter-spacing="1">Iranian Language Family — Geographic Distribution</text>
+
+  <!-- Water bodies -->
+  <ellipse cx="180" cy="190" rx="55" ry="22" fill="#1a3a5c" opacity="0.6"/>
+  <text x="180" y="194" text-anchor="middle" fill="#4a8ab5" font-size="8" opacity="0.8">Black Sea</text>
+
+  <ellipse cx="350" cy="210" rx="30" ry="55" fill="#1a3a5c" opacity="0.6"/>
+  <text x="350" y="215" text-anchor="middle" fill="#4a8ab5" font-size="7" opacity="0.8">Caspian</text>
+  <text x="350" y="225" text-anchor="middle" fill="#4a8ab5" font-size="7" opacity="0.8">Sea</text>
+
+  <path d="M290 370 Q350 380 420 400 Q500 420 580 410 Q600 408 610 400" fill="#1a3a5c" stroke="none" opacity="0.5"/>
+  <text x="450" y="405" text-anchor="middle" fill="#4a8ab5" font-size="8" opacity="0.8">Persian Gulf</text>
+
+  <path d="M620 390 Q660 410 700 440 Q730 460 750 480" fill="#1a3a5c" stroke="none" opacity="0.4"/>
+  <text x="700" y="460" text-anchor="middle" fill="#4a8ab5" font-size="8" opacity="0.8">Arabian Sea</text>
+
+  <!-- Silk Road path -->
+  <path d="M80 230 C200 200, 300 250, 420 240 C500 230, 550 200, 650 180 C720 165, 800 190, 920 160"
+        stroke="#c9924a" stroke-width="28" fill="none" opacity="0.08" stroke-linecap="round"/>
+  <path d="M80 230 C200 200, 300 250, 420 240 C500 230, 550 200, 650 180 C720 165, 800 190, 920 160"
+        stroke="#c9924a" stroke-width="2" fill="none" opacity="0.4" stroke-dasharray="8,6" stroke-linecap="round"/>
+  <text x="500" y="148" text-anchor="middle" fill="#c9924a" font-size="10" opacity="0.6" font-style="italic" letter-spacing="6">SILK ROAD</text>
+
+  <!-- Country/region outlines (simplified) -->
+  <!-- Turkey -->
+  <path d="M80 200 L170 180 L240 200 L250 230 L200 250 L100 240 Z" fill="#1e2736" stroke="#30363d" stroke-width="1" opacity="0.8"/>
+  <text x="160" y="225" text-anchor="middle" fill="#6e7681" font-size="9">Turkey</text>
+
+  <!-- Caucasus -->
+  <path d="M240 160 L320 150 L340 175 L300 190 L250 185 Z" fill="#1e2736" stroke="#30363d" stroke-width="1" opacity="0.8"/>
+
+  <!-- Iran -->
+  <path d="M300 220 L380 200 L440 210 L500 230 L520 280 L510 340 L460 370 L400 380 L340 350 L310 300 L290 260 Z"
+        fill="#212a3a" stroke="#30363d" stroke-width="1.5" opacity="0.9"/>
+  <text x="410" y="290" text-anchor="middle" fill="#8b949e" font-size="13" font-weight="500">Iran</text>
+
+  <!-- Iraq -->
+  <path d="M250 230 L300 220 L310 300 L280 330 L240 310 L240 260 Z" fill="#1e2736" stroke="#30363d" stroke-width="1" opacity="0.8"/>
+  <text x="272" y="280" text-anchor="middle" fill="#6e7681" font-size="9">Iraq</text>
+
+  <!-- Turkmenistan -->
+  <path d="M440 180 L540 160 L580 180 L540 210 L500 230 L440 210 Z" fill="#1e2736" stroke="#30363d" stroke-width="1" opacity="0.8"/>
+  <text x="510" y="195" text-anchor="middle" fill="#6e7681" font-size="8">Turkmenistan</text>
+
+  <!-- Afghanistan -->
+  <path d="M540 210 L620 180 L700 190 L720 230 L690 280 L620 300 L560 290 L520 280 Z"
+        fill="#212a3a" stroke="#30363d" stroke-width="1.5" opacity="0.9"/>
+  <text x="625" y="250" text-anchor="middle" fill="#8b949e" font-size="12" font-weight="500">Afghanistan</text>
+
+  <!-- Tajikistan -->
+  <path d="M660 155 L730 140 L760 160 L740 185 L700 190 L660 175 Z" fill="#212a3a" stroke="#30363d" stroke-width="1.2" opacity="0.85"/>
+  <text x="710" y="170" text-anchor="middle" fill="#8b949e" font-size="8">Tajikistan</text>
+
+  <!-- Pakistan -->
+  <path d="M690 280 L750 250 L800 290 L790 370 L740 400 L680 380 L650 340 L660 310 Z"
+        fill="#1e2736" stroke="#30363d" stroke-width="1" opacity="0.8"/>
+  <text x="735" y="340" text-anchor="middle" fill="#6e7681" font-size="10">Pakistan</text>
+
+  <!-- Uzbekistan -->
+  <path d="M540 140 L640 120 L660 155 L600 170 L540 160 Z" fill="#1e2736" stroke="#30363d" stroke-width="1" opacity="0.7"/>
+  <text x="600" y="148" text-anchor="middle" fill="#6e7681" font-size="7">Uzbekistan</text>
+
+  <!-- Ossetia region -->
+  <path d="M290 155 L320 150 L325 165 L295 170 Z" fill="#2a1e36" stroke="#30363d" stroke-width="0.8" opacity="0.8"/>
+
+  <!-- Language markers with glow -->
+
+  <!-- Persian - Tehran area -->
+  <circle cx="400" cy="260" r="8" fill="#58a6ff" opacity="0.2"/>
+  <circle cx="400" cy="260" r="4" fill="#58a6ff" filter="url(#glow)"/>
+  <text x="400" y="252" text-anchor="middle" fill="#58a6ff" font-size="11" font-weight="600" filter="url(#shadow)">Persian</text>
+
+  <!-- Kurdish - western Iran/Iraq border -->
+  <circle cx="290" cy="255" r="6" fill="#f0883e" opacity="0.2"/>
+  <circle cx="290" cy="255" r="3.5" fill="#f0883e" filter="url(#glow)"/>
+  <text x="262" y="250" text-anchor="middle" fill="#f0883e" font-size="10" font-weight="600" filter="url(#shadow)">Kurdish</text>
+
+  <!-- Gilaki - Caspian south coast -->
+  <circle cx="370" cy="225" r="4" fill="#a5d6ff" opacity="0.2"/>
+  <circle cx="370" cy="225" r="2.5" fill="#a5d6ff" filter="url(#glow)"/>
+  <text x="383" y="222" text-anchor="start" fill="#a5d6ff" font-size="8" font-weight="500">Gilaki</text>
+
+  <!-- Mazandarani - Caspian south coast east -->
+  <circle cx="395" cy="218" r="4" fill="#a5d6ff" opacity="0.2"/>
+  <circle cx="395" cy="218" r="2.5" fill="#a5d6ff" filter="url(#glow)"/>
+  <text x="395" y="212" text-anchor="middle" fill="#a5d6ff" font-size="8" font-weight="500">Mazandarani</text>
+
+  <!-- Luri - western Iran -->
+  <circle cx="360" cy="300" r="4" fill="#d2a8ff" opacity="0.2"/>
+  <circle cx="360" cy="300" r="2.5" fill="#d2a8ff" filter="url(#glow)"/>
+  <text x="340" y="312" text-anchor="middle" fill="#d2a8ff" font-size="8" font-weight="500">Luri</text>
+
+  <!-- Balochi - SE Iran / Pakistan border -->
+  <circle cx="580" cy="330" r="5" fill="#7ee787" opacity="0.2"/>
+  <circle cx="580" cy="330" r="3" fill="#7ee787" filter="url(#glow)"/>
+  <text x="570" y="348" text-anchor="middle" fill="#7ee787" font-size="9" font-weight="500">Balochi</text>
+
+  <!-- Dari - Afghanistan central -->
+  <circle cx="610" cy="230" r="6" fill="#79c0ff" opacity="0.2"/>
+  <circle cx="610" cy="230" r="3.5" fill="#79c0ff" filter="url(#glow)"/>
+  <text x="608" y="222" text-anchor="middle" fill="#79c0ff" font-size="10" font-weight="600" filter="url(#shadow)">Dari</text>
+
+  <!-- Pashto - Afghanistan/Pakistan -->
+  <circle cx="680" cy="260" r="6" fill="#f778ba" opacity="0.2"/>
+  <circle cx="680" cy="260" r="3.5" fill="#f778ba" filter="url(#glow)"/>
+  <text x="702" y="263" text-anchor="start" fill="#f778ba" font-size="10" font-weight="600" filter="url(#shadow)">Pashto</text>
+
+  <!-- Tajik - Tajikistan -->
+  <circle cx="720" cy="157" r="5" fill="#79c0ff" opacity="0.2"/>
+  <circle cx="720" cy="157" r="3" fill="#79c0ff" filter="url(#glow)"/>
+  <text x="748" y="150" text-anchor="start" fill="#79c0ff" font-size="10" font-weight="600" filter="url(#shadow)">Tajik</text>
+
+  <!-- Shughni - Pamirs -->
+  <circle cx="745" cy="165" r="3" fill="#ffa657" opacity="0.2"/>
+  <circle cx="745" cy="165" r="2" fill="#ffa657" filter="url(#glow)"/>
+  <text x="762" y="168" text-anchor="start" fill="#ffa657" font-size="8" font-weight="500">Shughni</text>
+
+  <!-- Ossetic - Caucasus -->
+  <circle cx="305" cy="160" r="4" fill="#d2a8ff" opacity="0.2"/>
+  <circle cx="305" cy="160" r="2.5" fill="#d2a8ff" filter="url(#glow)"/>
+  <text x="305" y="153" text-anchor="middle" fill="#d2a8ff" font-size="8" font-weight="500">Ossetic</text>
+
+  <!-- Legend -->
+  <rect x="30" y="420" width="280" height="88" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <text x="45" y="440" fill="#e6edf3" font-size="10" font-weight="600">Language Resource Level</text>
+
+  <circle cx="50" cy="456" r="4" fill="#58a6ff"/>
+  <text x="60" y="460" fill="#8b949e" font-size="9">Well-resourced (Persian)</text>
+
+  <circle cx="50" cy="474" r="3.5" fill="#f0883e"/>
+  <text x="60" y="478" fill="#8b949e" font-size="9">Emerging resources (Kurdish, Pashto, Dari, Tajik)</text>
+
+  <circle cx="50" cy="492" r="3" fill="#d2a8ff"/>
+  <text x="60" y="496" fill="#8b949e" font-size="9">Extremely low-resource (Balochi, Luri, Ossetic, Shughni, Gilaki, Mazandarani)</text>
+
+  <!-- Attribution -->
+  <text x="970" y="505" text-anchor="end" fill="#484f58" font-size="8">SilkRoadNLP Community</text>
+</svg>

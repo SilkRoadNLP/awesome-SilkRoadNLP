@@ -22,6 +22,10 @@ Despite their cultural and linguistic importance, most Iranian languages remain 
 **Website:** [silkroadnlp.org](https://www.silkroadnlp.org/)
 **GitHub:** [github.com/silkroadnlp](https://github.com/silkroadnlp)
 
+<p align="center">
+  <img src="assets/language-map.svg" alt="Iranian Language Family — Geographic Distribution" width="800">
+</p>
+
 ### Key Focus Areas
 
 - Dataset curation for low-resource Iranian languages
@@ -160,7 +164,7 @@ Resources spanning multiple Iranian languages or bridging them with other world 
 The SilkRoadNLP community organizes workshops co-located with major NLP conferences. The proceedings of the first workshop (2026) are available:
 
 - **Proceedings:** [ACL Anthology](https://aclanthology.org/volumes/2026.silkroadnlp-1/)
-- **Papers Repository:** [SilkRoadNLP-Workshop-Papers-2026](https://github.com/SilkRoadNLP/SilkRoadNLP-Workshop-Papers-2026)
+- **Papers Repository:** [EACL 2026 SilkRoadNLP Proceedings](https://github.com/SilkRoadNLP/SilkRoadNLP-Workshop-Papers-2026)
 
 ---
 
