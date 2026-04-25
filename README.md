@@ -173,17 +173,18 @@ The SilkRoadNLP community organizes workshops co-located with major NLP conferen
 
 ## Contributing
 
-We welcome contributions! If you know of a resource, dataset, tool, or paper related to NLP for Iranian languages that is not listed here, please:
+We welcome contributions! See the full **[Contributing Guide](CONTRIBUTING.md)** for details.
 
-1. Fork this repository
+**Quick start:**
+1. [Fork this repository](https://github.com/SilkRoadNLP/awesome-SilkRoadNLP/fork)
 2. Add your resource to the appropriate language page under `languages/`
 3. Submit a pull request
 
-For each entry, please include:
-- Paper title and authors
-- Link to the paper (preferably ACL Anthology, arXiv, or publisher DOI)
-- Link to code repository (GitHub, GitLab, etc.) if available
-- Link to models/datasets on HuggingFace if available
+**Other ways to help:**
+- Share your own NLP project for Iranian languages
+- Contribute data for under-resourced languages (Balochi, Luri, Shughni, Gilaki, Mazandarani, Ossetic...)
+- Fix broken links or add missing GitHub/HuggingFace links
+- Suggest new language pages
 
 ---
 
